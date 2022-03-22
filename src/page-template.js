@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 module.exports = (name, github) => {
     return `
     <!DOCTYPE html>
@@ -19,25 +18,3 @@ module.exports = (name, github) => {
     `;
   };
   
-=======
-const generatePage = (name, github) => {
-    return `
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-       <meta charset="UTF-8">
-       <meta name="viewport" content="width=device-width, initial-scale=1
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Porfolio Demo</title>
-    </head>
-    
-    <body>
-        <h1>${name}</h1>
-        <h2><a href="https://github.com/${github}">Github</a></h2>
-    </body>
-    </html
-    `;
-};
-
-module.exports = generatePage;
->>>>>>> 0e255686bd6f5790a5d31060b328a2f180ed594a
